@@ -66,6 +66,17 @@ Using Amazon Redshift Query Editor v2, I executed SQL queries on the <strong>dev
 
 (Query execution images are stored in the Images folder.)
 
+## Jupyter Notebook - sales-agg.ipynb
+
+In addition to AWS Redshift SQL queries, I performed further data aggregation and analytics using Python in Jupyter Notebook ![sales-agg.ipynb](https://github.com/YaswanthiUnnam/Data-Pipeline-in-AWS/blob/d1feb2cda87cf1d6257e3b185af7d22a50bcef7c/sales-agg.ipynb).
+
+### Notebook Highlights:
+- Aggregating sales data to identify key revenue trends.
+- Performing additional transformations for deeper insights.
+- Generating visualizations for improved business decision-making.
+
+This Python-based analysis complements the AWS Redshift queries, ensuring enhanced analytics and validation of transformed data.
+
 ## Summary of Project
 This project provides a hands-on approach to building a real-world data pipeline using AWS services. It demonstrates how cloud-based ETL processes can be efficiently implemented for data ingestion, transformation, and storage.
 
