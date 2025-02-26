@@ -4,11 +4,11 @@
 This project demonstrates the implementation of an end-to-end data pipeline for sales_records data using <strong>AWS services</strong>. It showcases how to build a scalable <strong>ETL (Extract, Transform, Load)</strong> process using <strong>Infrastructure as Code (IaC)</strong> and <strong>PySpark</strong> for data transformation. The project helps in understanding how to ingest, process, and store data efficiently in a cloud-based environment.
 
 ## Problem Statement
-Organizations handling large-scale sales data often face challenges such as:
+Organizations handling large-scale sales data face challenges like:
 
-- Manual data processing, leading to inefficiencies and delays.
-- Slow ETL workflows that hinder real-time business insights.
-- On-premise storage limitations that prevent scalability and cost-effectiveness.
+- Manual data processing leading to inefficiencies.
+- Slow ETL workflows preventing real-time insights.
+- On-premise storage limitations, impacting scalability and cost.
 
 To address these challenges, this project implements a fully automated, cloud-native data pipeline using AWS services. This solution enables businesses to:
 - Automate data ingestion and transformation, minimizing manual effort.
