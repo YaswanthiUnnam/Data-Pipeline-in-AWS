@@ -31,7 +31,7 @@ The objective of this project is to build an automated data pipeline that extrac
 6. <strong>Security & Access Control:</strong> Using AWS IAM (Identity and Access Management) to enforce secure access to AWS services.
 
 ## Architecture Diagram
-![Architecture Diagram](https://github.com/YaswanthiUnnam/Data-Pipeline-in-AWS/blob/1894d5d73f9bb42326b6a38ec52dac45d69d28f6/Images/Architecture%20Diagram.png)
+![Architecture Diagram]
 The data flows through the following steps:
 1. <strong>Amazon S3 (Source Storage):</strong> Raw data is loaded into Amazon S3, acting as a data lake for storage.
 2. <strong>AWS Glue (ETL Initiation):</strong> AWS Glue detects new data in S3 and initiates one or more ETL (Extract, Transform, Load) jobs.
