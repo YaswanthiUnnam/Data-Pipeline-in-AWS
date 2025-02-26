@@ -31,6 +31,7 @@ The objective of this project is to build an automated data pipeline that extrac
 6. <strong>Security & Access Control:</strong> Using AWS IAM (Identity and Access Management) to enforce secure access to AWS services.
 
 ## Architecture Diagram
+### AWS ETL Architecture for Data Engineering
 ![Architecture Diagram](https://github.com/YaswanthiUnnam/Data-Pipeline-in-AWS/blob/c18fb781eaaa8fc54e67d1b1f1cb82250af36da0/Images/Architecture%20Diagram.png)
 The data flows through the following steps:
 1. <strong>Amazon S3 (Source Storage):</strong> Raw data is loaded into Amazon S3, acting as a data lake for storage.
