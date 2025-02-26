@@ -44,16 +44,16 @@ The data flows through the following steps:
 * Amazon S3
 * AWS Glue
 * Amazon Redshift
-* Amazon CloudWatch
+* AWS CloudFormation
 * AWS IAM
 
 ## CloudFormation Template Overview
 ![s3-glue-redshift-iam.yaml](https://github.com/YaswanthiUnnam/Data-Pipeline-in-AWS/blob/1894d5d73f9bb42326b6a38ec52dac45d69d28f6/s3-glue-redshift-iam.yaml)
 
 1. <strong>Amazon S3:</strong> Creates a bucket to store raw and processed sales data.
-2. <strong>AWS Glue:</strong> Defines an ETL job using PySpark to transform data. Uses a Glue Database for metadata management.
+2. <strong>AWS Glue:</strong> AWS Glue defines an ETL job using PySpark to transform data and utilizes a Glue Database for efficient metadata management and schema discovery.
 3. <strong>Amazon Redshift:</strong> Deploys a cluster to store transformed data for analytics.
-4. <strong>Amazon CloudWatch:</strong> Creates a Log Group to monitor Glue job execution. Retains logs for 30 days for troubleshooting.
+4. <strong>AWS CloudFormation:</strong> AWS CloudFormation automates the deployment of the entire data pipeline architecture by provisioning VPC, Subnets, IAM roles, S3 buckets, Glue jobs, and Redshift in a single setup, ensuring infrastructure is managed as code for easy replication and scalability.
 5. <strong>IAM Roles:</strong> Grants secure access between Glue, S3, and Redshift using IAM role-based policies.
 
 ## Analysis of Regional Sales Data using AWS Redshift
