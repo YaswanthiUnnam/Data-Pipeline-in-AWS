@@ -19,16 +19,24 @@ To address these challenges, this project implements a fully automated, cloud-na
 This project serves as a real-world demonstration of how cloud technologies can improve data workflows, decision-making, and operational efficiency.
 
 ## Project Overview
-The objective of this project is to build an automated data pipeline that extracts raw sales data, processes it using AWS services, and loads the transformed data into a structured data warehouse for analytics.
+The project aims to construct an end-to-end data pipeline within the AWS environment.
+
+*   It utilises several AWS components, starting with S3 for data storage.
+*   AWS Glue is used to catalog the data using a crawler.
+*   The data is processed using PySpark within interactive Jupyter Notebooks in Glue.
+*   Finally, the processed data is loaded into Redshift.
+
 
 ## Key Highlights
 
-1. <strong>Infrastructure as Code (IaC):</strong> Automating the deployment of AWS resources for seamless architecture setup.
-2. <strong>Data Extraction:</strong> Loading raw sales data into Amazon S3, serving as a scalable data lake.
-3. <strong>Data Transformation:</strong> Using AWS Glue and PySpark to clean, enrich, and format the data.
-4. <strong>Data Storage:</strong> Storing transformed data into Amazon Redshift for efficient querying and analytics.
-5. <strong>Monitoring & Logging:</strong> Leveraging Amazon CloudWatch to track pipeline performance and trigger alerts for failures.
-6. <strong>Security & Access Control:</strong> Using AWS IAM (Identity and Access Management) to enforce secure access to AWS services.
+*   **Infrastructure as Code (IaC):** Defining and managing infrastructure through code to automate the deployment process.
+*   **ETL Pipeline:** Extracting data from a source, transforming it, and loading it into a data warehouse.
+*   **AWS Glue Crawlers:** Automatically discover the schema of data stored in S3 and create metadata tables in the Glue Data Catalog.
+*   **PySpark:** Using Python and Spark for large-scale data processing.
+*   **Dynamic Frame:** A data structure in AWS Glue that is similar to a Spark DataFrame but provides different syntax for performing actions.
+*   **Data Transformation:** Converting data from one format to another to make it suitable for analysis.
+*   **Data Aggregation:** Combining data from multiple rows into a single row to summarise the information.
+*   **AWS Redshift:** A data warehouse service used for storing and analysing large datasets.
 
 ## Architecture Diagram
 #### AWS ETL Architecture for Data Engineering
@@ -94,7 +102,7 @@ This solution can help organizations enhance their data-driven decision-making w
 <strong>Yaswanthi Unnam</strong>
 
 ## Credits
-<strong>Data Tech</strong>
+<strong>DataTech</strong>
 
 ## References
 [https://www.youtube.com/watch?v=6VJKR3sLTow&ab_channel=DataTech]
